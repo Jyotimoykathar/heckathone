@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ineuron | clon website</title>
+
+    <!-- Rubik goole font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- local stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Header section -->
+    <header class="header">
+      <div class="top-nav margin-bottom-sm">
+        <div class="top-sect1">
+          <a href="#" class="margin-right-sm">
+            <img src="img/logo-final.png" class="logo-image" alt="logo image" />
+          </a>
+          <div class="search-box">
+            <ion-icon name="search-outline" class="search-icon"></ion-icon>
+            <input
+              class="search-input"
+              type="text"
+              placeholder="what do you want to learn?"
+            />
+          </div>
+        </div>
+        <div class="flex-row">
+          <button class="btn">Sign Up</button>
+          <button class="btn btn-active">Sign In</button>
+        </div>
+      </div>
+      <!-- Nav part -->
+      <nav class="main-nav">
+        <ul class="main-nav-list">
+          <li class="nav-button">
+            <a href="#" class="main-nav-link nav-dropdown">Courses &#8964;</a>
+            <ul class="drop-items flex-col-drop">
+              <li><a href="#" class="main-nav-link">Data Science</a></li>
+              <li><a href="#" class="main-nav-link">Big data</a></li>
+              <li><a href="#" class="main-nav-link">Data Analytics</a></li>
+              <li><a href="#" class="main-nav-link">Web Development</a></li>
+              <li><a href="#" class="main-nav-link">Mobile Developemnt</a></li>
+              <li><a href="#" class="main-nav-link">Cloud</a></li>
+              <li><a href="#" class="main-nav-link">Devops</a></li>
+            </ul>
+          </li>
+          <li><a href="#" class="main-nav-link">One Neuron</a></li>
+          <li><a href="#" class="main-nav-link">Job Portal</a></li>
+          <li><a href="#" class="main-nav-link">Internship Portal</a></li>
+          <li><a href="#" class="main-nav-link">Become an affiliate</a></li>
+          <li><a href="#" class="main-nav-link">Hall of fame</a></li>
+          <li><a href="#" class="main-nav-link">Blog</a></li>
+          <li class="nav-button">
+            <a href="#" class="main-nav-link">Company &#8964;</a>
+            <ul class="drop-items flex-col-drop">
+              <li><a href="#" class="main-nav-link">About Us</a></li>
+              <li><a href="#" class="main-nav-link">Contact Us</a></li>
+              <li><a href="#" class="main-nav-link">Hackathone</a></li>
+              <li><a href="#" class="main-nav-link">FAQs</a></li>
+              <li><a href="#" class="main-nav-link">Job gurantee</a></li>
+              <li><a href="#" class="main-nav-link">Job Assistance</a></li>
+              <li><a href="#" class="main-nav-link">Terms and condition</a></li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <!-- buttons for responsive -->
+      <button class="btn-mobile-nav">
+        <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+        <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+      </button>
+    </header>
+
+    <!-- Main section -->
+    <main>
+      <section class="section-hero">
+        <div class="hero grid grid--2-cols">
+          <div class="hero-text">
+            <h3 class="heading-tertiary">Learn from the best of industry</h3>
+            <h1 class="heading-primary">
+              Highest in quality, affordable in price
+            </h1>
+            <p class="description white-color">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Nesciunt, sint! Corrupti expedita vero sint ratione.
+            </p>
+          </div>
+          <div class="hero-img-box">
+            <img
+              src="img/hero-influencers1.png"
+              class="hero-image"
+              alt="influencer image"
+            />
+          </div>
+        </div>
+      </section>
+
+      <!-- Total score section -->
+      <section class="section-total container">
+        <h2 class="heading-secondary">"Pure Hardwork, No Shortcuts"</h2>
+        <div class="grid grid--3-cols">
+          <div class="flex-col">
+            <img src="img/icons/books-icon.svg" alt="books icon" />
+            <h3 class="heading-tertiary">400+</h3>
+            <h3 class="heading-tertiary">Different Courses</h3>
+          </div>
+          <div class="flex-col">
+            <img src="img/icons/student-iocn.svg" alt="books icon" />
+            <h3 class="heading-tertiary">400000+</h3>
+            <h3 class="heading-tertiary">Students Enrolled</h3>
+          </div>
+          <div class="flex-col">
+            <img src="img/icons/credit-card-icon.svg" alt="books icon" />
+            <h3 class="heading-tertiary">10000+</h3>
+            <h3 class="heading-tertiary">Successful Transition</h3>
+          </div>
+        </div>
+      </section>
+
+      <!-- Achive's section -->
+      <section class="section-achiver">
+        <h2 class="heading-secondary">Our Achiever’s Work with</h2>
+        <div class="logos grid grid--5-cols container">
+          <img src="img/logos/learnyst.png" alt="logo image" />
+          <img src="img/logos/leventm.png" alt="logo image" />
+          <img src="img/logos/livspace.png" alt="logo image" />
+          <img src="img/logos/mindtree.png" alt="logo image" />
+          <img src="img/logos/odessa.png" alt="logo image" />
+        </div>
+      </section>
+
+      <!-- Hall of fame section -->
+      <section class="section-hallOfFame center-text">
+        <h2 class="heading-secondary">Hall of fame</h2>
+        <div class="cards grid grid--3-cols container">
+          <div class="card flex">
+            <img
+              src="img/students/student1.jpg"
+              class="student-img"
+              alt="student1 image"
+            />
+            <h3 class="heading-tertiary">Lorem ipsum.</h3>
+            <p class="description">Lorem ipsum dolor sit amet consectetur.</p>
+            <p class="description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Reprehenderit odit veniam eaque.
+            </p>
+          </div>
+          <div class="card flex-col">
+            <img
+              src="img/students/student2.jpg"
+              class="student-img"
+              alt="student2 image"
+            />
+            <h3 class="heading-tertiary">Lorem ipsum.</h3>
+            <p class="description">Lorem ipsum dolor sit amet consectetur.</p>
+            <p class="description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Reprehenderit odit veniam eaque .
+            </p>
+          </div>
+          <div class="card flex-col">
+            <img
+              src="img/students/student3.jpg"
+              class="student-img"
+              alt="student3 image"
+            />
+            <h3 class="heading-tertiary">Lorem ipsum.</h3>
+            <p class="description">Lorem ipsum dolor sit amet consectetur.</p>
+            <p class="description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Reprehenderit odit veniam eaque.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Learn section -->
+      <section class="section-learn center-text container">
+        <h2 class="heading-secondary">What you will learn</h2>
+        <div class="button-group flex-row margin-bottom-sm">
+          <button class="btn btn-active">Live Programs</button>
+          <button class="btn">Affordable Programs</button>
+          <button class="btn">Community Programs</button>
+          <button class="btn">One Neuron</button>
+          <button class="btn">Test Series</button>
+        </div>
+        <div class="flex-col">
+          <h3 class="heading-tertiary blue">Live Programs</h3>
+          <p class="description">
+            Get your program with live "instructor led" learning.
+          </p>
+          <div class="cards grid grid--3-cols margin-bottom-sm">
+            <div class="card flex-col">
+              <img
+                src="img/programs/program3.jpg"
+                class="program-img"
+                alt="program image"
+              />
+              <h3 class="heading-tertiary">
+                DSA for FAANG with Python &amp; JavaScript
+              </h3>
+              <p class="description">Lorem ipsum</p>
+              <p class="description">&#8377;400.00</p>
+            </div>
+            <div class="card flex-col">
+              <img
+                src="img/programs/program5.jpg"
+                class="program-img"
+                alt="program image"
+              />
+              <h3 class="heading-tertiary">
+                DSA for FAANG with Python &amp; JavaScript
+              </h3>
+              <p class="description">Lorem ipsum</p>
+              <p class="description">&#8377;400.00</p>
+            </div>
+            <div class="card flex-col">
+              <img
+                src="img/programs/program4.jpg"
+                class="program-img"
+                alt="program image"
+              />
+              <h3 class="heading-tertiary">
+                DSA for FAANG with Python &amp; JavaScript
+              </h3>
+              <p class="description">Lorem ipsum</p>
+              <p class="description">&#8377;400.00</p>
+            </div>
+          </div>
+          <div>
+            <a href="#" class="link-to-more">view more</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Heckathone section -->
+      <section class="section-heckathone">
+        <div class="container center-text">
+          <h2 class="heading-secondary">Hackathon Companies</h2>
+          <div class="logos flex-row">
+            <img src="img/logos/github.png" alt="logo image" />
+            <img src="img/logos/geekyants.png" alt="logo image" />
+            <img src="img/logos/jetbrains.png" alt="logo image" />
+            <img src="img/logos/nvidia.png" alt="logo image" />
+            <img src="img/logos/redis.png" alt="logo image" />
+          </div>
+        </div>
+      </section>
+
+      <!-- Product section -->
+      <section class="section-product">
+        <div class="container center-text">
+          <h2 class="heading-secondary">Our Products</h2>
+          <div class="flex-row">
+            <div class="product-box flex-col margin-bottom-sm">
+              <img src="img/icons/jobPortal-icon.svg" alt="jobportal icon " />
+              <h3 class="heading-tertiary">Job Portal</h3>
+              <p class="description padding-side">
+                Use exceptional templates for a stand-out resume minus the sign
+                up process.
+              </p>
+            </div>
+            <div class="product-box flex-col margin-bottom-sm">
+              <img src="img/icons/Internship-icon.svg" alt="internship-icon " />
+              <h3 class="heading-tertiary">Internship Portal</h3>
+              <p class="description">
+                iNeuron's self-paced internship portal prioritises hands-on
+                training with 570+ internship projects.
+              </p>
+            </div>
+            <div class="product-box flex-col margin-bottom-sm">
+              <img
+                src="img/icons/affilitatePortal-icon.svg"
+                alt="affilitate icon "
+              />
+              <h3 class="heading-tertiary">Become and affiliate</h3>
+              <p class="description">
+                Explore affiliate marketing opportunities with iNeuron and
+                attain financial frredom.
+              </p>
+            </div>
+            <div class="product-box flex-col margin-bottom-sm">
+              <img src="img/icons/halloffame-icon.svg" alt="fame icon " />
+              <h3 class="heading-tertiary">Hall of fame</h3>
+              <p class="description">
+                Our student placements and 10+ career transitions speak volumes
+                about our courses.
+              </p>
+            </div>
+            <div class="product-box flex-col margin-bottom-sm">
+              <img src="img/icons/blog-icon.svg" alt="blog icon " />
+              <h3 class="heading-tertiary">InBlog</h3>
+              <p class="description">
+                Explore all you want about your favourite courses.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Tech Avenger Section -->
+      <section class="section-avengers container center-text">
+        <h2 class="heading-secondary">Tech Avengers</h2>
+        <div class="cards grid grid--3-cols">
+          <div class="card flex-col">
+            <img
+              src="img/students/avg1.jpg"
+              class="avenger-image"
+              alt="avenger1 image"
+            />
+            <h3 class="heading-tertiary">lorem ipsum</h3>
+            <p class="description">Data Scientist</p>
+          </div>
+          <div class="card flex-col">
+            <img
+              src="img/students/avg2.jpg"
+              class="avenger-image"
+              alt="avenger2 image"
+            />
+            <h3 class="heading-tertiary">lorem ipsum</h3>
+            <p class="description">Senior vp</p>
+          </div>
+          <div class="card flex-col">
+            <img
+              src="img/students/avg3.jpg"
+              class="avenger-image"
+              alt="avenger3 image"
+            />
+            <h3 class="heading-tertiary">lorem ipsum</h3>
+            <p class="description">Cyber security lead</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Our Partner section -->
+      <section class="section-partnered container center-text">
+        <h2 class="heading-secondary center-text">
+          Our Partnered Institutions
+        </h2>
+        <div class="grid grid--5-cols center-text">
+          <img
+            src="img/partner/logo1.svg"
+            class="partner-img"
+            alt="partner image"
+          />
+          <img src="img/partner/logo2.svg" alt="partner image" />
+          <img src="img/partner/logo3.svg" alt="partner image" />
+          <img src="img/partner/logo4.svg" alt="partner image" />
+          <img src="img/partner/logo5.svg" alt="partner image" />
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer section -->
+    <footer class="section-footer">
+      <div class="grid grid--3-cols">
+        <div>
+          <div class="footer-head margin-bottom-sm footer-flex-row">
+            <div>
+              <img
+                src="img/ineuron-logo-white.png"
+                class="footer-logo"
+                alt="ineuron white logo"
+              />
+            </div>
+            <div class="icon-flex-row">
+              <ion-icon name="logo-facebook" class="footer-icon"></ion-icon>
+              <ion-icon name="logo-twitter" class="footer-icon"></ion-icon>
+              <ion-icon name="logo-linkedin" class="footer-icon"></ion-icon>
+              <ion-icon name="logo-youtube" class="footer-icon"></ion-icon>
+            </div>
+          </div>
+          <div class="flex-col-footer">
+            <div class="footer-flex-row">
+              <ion-icon name="location-outline" class="footer-icon"></ion-icon>
+              <p class="description">
+                <a href="#" class="footer-nav-link">
+                  Bengaluru, Karnataka 562129.</a
+                >
+              </p>
+            </div>
+            <div class="footer-flex-row">
+              <ion-icon name="mail-outline" class="footer-icon"></ion-icon>
+              <p class="description">
+                <a href="#" class="footer-nav-link"
+                  >Email us: contact@ineuron.ai</a
+                >
+              </p>
+            </div>
+          </div>
+          <div class="footer-img flex-col-footer">
+            <div class="footer-img">
+              <img src="img/iso-9001-2015.svg" alt="footer image" />
+            </div>
+            <p class="description-flex">ISO 9001</p>
+          </div>
+        </div>
+
+        <div>
+          <div class="footer-head margin-bottom-sm">
+            <h3 class="heading-tertiary">Company</h3>
+          </div>
+          <div class="grid grid--2-cols">
+            <ul class="footer-nav-list">
+              <li><a href="#" class="footer-nav-link">About us</a></li>
+              <li><a href="#" class="footer-nav-link">Hack-A-Thon</a></li>
+              <li><a href="#" class="footer-nav-link">Job guarantee</a></li>
+              <li><a href="#" class="footer-nav-link">Privacy policy</a></li>
+            </ul>
+            <ul class="footer-nav-list">
+              <li><a href="#" class="footer-nav-link">Contact us</a></li>
+              <li><a href="#" class="footer-nav-link">FAQs</a></li>
+              <li><a href="#" class="footer-nav-link">Job assistance</a></li>
+              <li>
+                <a href="#" class="footer-nav-link">Terms and conditions</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div>
+          <div class="footer-head margin-bottom-sm">
+            <h3 class="heading-tertiary">Products</h3>
+          </div>
+          <div>
+            <ul class="footer-nav-list">
+              <li><a href="#" class="footer-nav-link">Job Portal</a></li>
+              <li><a href="#" class="footer-nav-link">Internship portal</a></li>
+              <li>
+                <a href="#" class="footer-nav-link">Become an affiliate</a>
+              </li>
+              <li><a href="#" class="footer-nav-link">Hall of fame</a></li>
+              <li><a href="#" class="footer-nav-link">InBlog</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- script for using Ionicons -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
