@@ -455,6 +455,9 @@ body {
     /* 8px / 16px = 0.5 = 50% */
     font-size: 50%;
   }
+  .section-hero {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+  }
   .hero {
     grid-template-columns: 1fr;
     padding: 0 8rem;
@@ -510,6 +513,14 @@ body {
     flex-direction: column;
     align-items: center;
   }
+  .section-achiver {
+    padding: 9rem 2rem;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+  }
+  .section-partnered {
+    padding: 9rem 4rem;
+    text-align: center;
+  }
 }
 /**************************/
 /* BELOW 544px (Phones) */
@@ -524,7 +535,13 @@ body {
     grid-template-columns: 1fr;
   }
   .grid--5-cols {
-    grid-templates-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .section-partnered .grid--5-cols {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .section-heckathone .grid--5-cols {
+    grid-template-columns: repeat(2, 1fr);
   }
   .btn,
   .btn:link,
