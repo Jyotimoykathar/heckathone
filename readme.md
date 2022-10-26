@@ -33,49 +33,68 @@ This is a clone of Ineuron website, a build with html5 and css3.
 ### Built with
 
 - Semantic HTML5 markup
-- Tailwind Css
+- Css3 and Media-queries
 
 ### Time required
 
-2 days required to understand more the tailwind doc and apply till completion.
+3 days required till completion.
 
 ### What I learned
 
-This is the customize color design and background code snippet using tailwind css.
+This is the customize reusable classes code snippet that helped a lot and saved my time.
 
-```js
-<script>
-      tailwind.config = {
-        theme: {
-          extend: {
-            colors: {
-              lightBrown: "#92805C",
-              lightGrey: "#F8F9FA",
-            },
-            backgroundImage: {
-              rode_header: "url('images/rode_header.jpg')",
-              rode_caster: "url('images/road_caster_pro2.jpg')",
-              nth_100: "url('images/nth_100.jpg')",
-              nt_bg: "url('images/nt-usb.jpg')",
-              microphones: "url('images/microphones.png')",
-              mixers: "url('images/mixers.jpg')",
-              software: "url('images/software.png')",
-              accessories: "url('images/accessories.png')",
-            },
-          },
-        },
-      };
-    </script>
+```css
+.container {
+  max-width: 120rem;
+  padding: 0 3.2rem;
+  margin: 0 auto;
+}
+
+/* grid-section */
+.grid {
+  display: grid;
+  column-gap: 6.4rem;
+  row-gap: 9.6rem;
+  /* align-items: center; */
+}
+.grid--2-cols {
+  grid-template-columns: repeat(2, 1fr);
+}
+.grid--3-cols {
+  grid-template-columns: repeat(3, 1fr);
+}
+.grid--4-cols {
+  grid-template-columns: repeat(4, 1fr);
+}
+.grid--5-cols {
+  grid-template-columns: repeat(5, 1fr);
+}
+
+/* flex-section */
+.flex-col {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+.flex-row {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
 ```
 
 ### Continued development
 
-I still have a lot to learn about tailwind css library and implement it.
 Animation and JS need to be added to make the page more interactive and beautiful.
 
 ### Useful resources
 
-- [TAILWIND](https://tailwindcss.com/docs/installation) - This tailwind doc. was very helpful while creating the entire project.
+- [MDN](https://developer.mozilla.org/en-US/) - This MDN doc. was very helpful while creating the entire project.
 - [ION ICONS](https://ionic.io/ionicons) - This is an amazing website with open source icons that helps to add icons easily to your webpages.
 
 ## Author
@@ -84,4 +103,4 @@ Animation and JS need to be added to make the page more interactive and beautifu
 
 ## Acknowledgments
 
-Special Thanks to Ineuron team for the Project to learn and improve my Tailwind css framework skills .
+Special Thanks to Ineuron team for the Project to learn and improve my Css3 and Media-queries skills .
